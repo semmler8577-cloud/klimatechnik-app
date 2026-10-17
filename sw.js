@@ -1,5 +1,5 @@
 /* Service Worker – Klimatechnik-App. Version wird beim Build gesetzt. */
-const VERSION = "8918560206";
+const VERSION = "1792267424";
 const CACHE = "klima-" + VERSION;
 const SHELL = ["./", "index.html", "manifest.webmanifest", "data.json", "icon-192.png", "icon-512.png", "icon-maskable-192.png", "icon-maskable-512.png", "apple-touch-icon.png", "icon.svg"];
 self.addEventListener("install", e => {
